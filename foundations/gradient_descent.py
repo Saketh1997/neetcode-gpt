@@ -6,6 +6,5 @@ class Solution:
         # Round final answer to 5 decimal places
         x = init
         for i in range(iterations):
-            func = x * x
             x = x - learning_rate * 2*x
         return round(x, 5)
