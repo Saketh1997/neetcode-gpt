@@ -7,6 +7,5 @@ class Solution:
         x = init
         for i in range(iterations):
             func = x * x
-            print(func)
             x = x - learning_rate * 2*x
         return round(x, 5)
